@@ -25,3 +25,32 @@ paises[1:] #retorna a lista a partir do indice 1
 
 paises[:2] #retorna a lista até o indice 1, o indice final é sempre x-1
 #print ['USA', 'India']
+
+#adicionando itens a uma lista
+paises.append('Canadá') #adiciona na lista após o ultimo indice
+#print ['USA', 'India', 'China', 'Brazil', 'Canadá']
+
+paises.insert(0,'Canadá') #adiciona na lista conforme o indice passado no parâmetro
+#print ['Canadá', 'USA', 'India', 'China', 'Brazil']
+
+#lista aninhada
+listaAninhada = [paises, paises] #type: ignore
+
+#remover elementos
+paises.remove('Brazil') #remove um elemento especifico da lista
+#print ['USA', 'India', 'China']
+
+paises.pop(0) #remove o elemento conforme o indice
+
+del paises[0] #remove o elemento conforme o indice
+
+#criando uma nova lista
+numeros = [4, 3, 10, 7, 1, 2]
+
+numeros.sort() #ordenando uma lista
+#print [1, 2, 3, 4, 7, 10]
+
+numeros.sort(reverse=True) #ordenando uma lista na ordem reversa
+#print [10, 7, 4, 3, 2, 1]
+
+
