@@ -53,4 +53,10 @@ numeros.sort() #ordenando uma lista
 numeros.sort(reverse=True) #ordenando uma lista na ordem reversa
 #print [10, 7, 4, 3, 2, 1]
 
+numeros[0] = 1000 #colocando no indice 0 outro valor, empurrando os indices seguintes para a frente
+
+#copiando uma lista
+nova_lista = paises[:]
+nova_lista2 = paises.copy()
+
 
