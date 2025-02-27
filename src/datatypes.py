@@ -18,6 +18,17 @@
 # >= | maior ou igual que
 # <= | menor ou igual que
 
+# #   | comentario
+# \n  | nova linha
+# and | operador logico AND
+# &   | operador logico AND no pandas
+# or  | operador logico OR
+# |   | operador logico OR no pandas
+# not | operador logico NOT
+# ~   | operador logico NOT no pandas
+
+
+
 #integers
 valorInteiro = 1
 valorDecimal =  1.2
